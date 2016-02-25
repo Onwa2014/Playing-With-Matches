@@ -5,35 +5,19 @@
 	</head>
     <title>Playing with matches</title>
 
-    <style type="text/css">
-    /* CSS goes here */
-    div {
-		background-color: red;
-		color:white;
-		font-size: 52px;
-		height: 50px;
-		width: 50px;
-	}
-    </style>
 </head>
 <body>
-  <div id="number">
+  <div class="number">
    	7
   </div>
-  <script type="text/javascript">
-    // JavaScript code goes here at the bottom
-    function randomNum(num){
-  		return Math.floor(Math.random() * num);
-	   }
-     
-     var randomNumber = randomNum(100);
+    <div class="number">
+    2
+    </div>
 
-     document.getElementById("number").innerHTML = randomNumber;
-
-     console.log(randomNumber);
-    
-
-
-    </script>
+    <div class= "number">
+      5
+    </div>
+   <button>Play</button>
+  <script type="text/javascript" src="script.js"></script>
 </body>
 </html>
